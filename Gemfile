@@ -9,13 +9,18 @@ gem 'sqlite3', '1.3.6'
 
 # Add the following as per "Ruby on Rails Tutorial"
 group :devlepment do
-  gem 'rspec-rails', '2.0.1'
+#  gem 'rspec-rails', '2.0.1'
+gem "rspec-rails", ">= 2.9.0.rc2"
 end
 
 group :test do
-  gem 'rspec', '2.0.1'
+  #gem 'rspec', '2.0.1'
+  gem "rspec-rails", ">= 2.9.0.rc2"
   gem 'webrat', '0.7.3'
 end
+
+#Add Spork for testing
+gem 'spork', '~> 1.0rc'
 
 # Gems used only for assets and not required
 # in production environments by default.
