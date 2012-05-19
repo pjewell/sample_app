@@ -10,7 +10,8 @@ gem 'sqlite3', '1.3.6'
 # Add the following as per "Ruby on Rails Tutorial"
 group :development do
 #  gem 'rspec-rails', '2.0.1'
-gem "rspec-rails", ">= 2.9.0.rc2"
+  gem "rspec-rails", ">= 2.9.0.rc2"
+  gem 'webrat', '0.7.3'
 end
 
 group :test do
