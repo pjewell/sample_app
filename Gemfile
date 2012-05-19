@@ -8,7 +8,7 @@ gem 'rails', '3.2.3'
 gem 'sqlite3', '1.3.6'
 
 # Add the following as per "Ruby on Rails Tutorial"
-group :devlepment do
+group :development do
 #  gem 'rspec-rails', '2.0.1'
 gem "rspec-rails", ">= 2.9.0.rc2"
 end
